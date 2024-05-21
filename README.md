@@ -2,7 +2,6 @@
 
 Implementation of 3DViewer v2.0
 
-
 ## Contents
 
 1. [Chapter I](#chapter-i) \
@@ -45,10 +44,7 @@ Develop a program to visualise the 3D wireframe models.
     - there should be no interface code in the controller and the model
     - controllers must be thin
 - There should be at least three different design patterns (e.g. facade, strategy and command)
-- Classes must be implemented within the `s21` namespace
 - To perform affine transformations, you can use the matrices from the library of the previous s21_matrix+ project
-
-*Note:* **Don't upload heavy files (>10 mb) to git.**
 
 ### Part 2. Bonus. Settings
 
