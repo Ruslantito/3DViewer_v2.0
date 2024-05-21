@@ -1,0 +1,109 @@
+\input texinfo
+@settitle 3DViewer_v2.0
+
+@copying
+Made by Morfinov and Changsky on June-July 2023
+@end copying
+
+@titlepage
+@title 3DViewer_v2.0 Guide
+@subtitle «3DViewer»
+@author Morfinov and Changsky
+@vskip 
+@insertcopying
+@end titlepage
+
+@ifnottex
+@node Top
+@top 3DViewer_v2.0
+@insertcopying
+@end ifnottex
+
+@menu
+* General information:: This section provides general information about 3DViewer.
+* Bonus Settings:: This section contains information about the Settings options.
+* Bonus Record:: This section contains information about the options for capturing gif, bmp and jpeg images.
+
+
+@detailmenu
+------------------------------------------------------------------------------------------------------------------------------------------------ 
+ 
+ 
+-- FOR THOSE WHO READ CAREFULLY! --
+
+
+In this description, we have posted only a brief summary of the product, made according to the assignment received.
+
+If you have any additional questions or suggestions, we will be happy to consider them and will definitely think about it.
+
+You can send all suggestions and comments to our email address or contact us in the rocket chat through our nicknames.
+
+With respect for your time and attention.
+
+
+...
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------ 
+
+@end detailmenu
+
+@end menu
+
+
+@node General information
+@chapter General information
+
+@enumerate
+@item
+The project implements the ability to visualize 3D wireframe models. 
+@item
+The code is written in the C++ programming language. 
+@item
+The project implemented using the MVC pattern. Also used design patterns such as:
+@* * Singleton
+@* * Facade
+@* * Strategy
+@* * Memento
+@item
+For GUI implementation a library Qt was used.
+@end enumerate
+
+
+@node Bonus Settings
+@chapter Bonus Settings
+
+@cindex settings, bonus
+Our program allows the following options:
+@cindex index entry, another
+
+@enumerate
+@item
+Set projection type (parallel and central);
+@item
+Adjust the type (solid, dotted), color and thickness of faces;
+@item
+Customize the display method (none, circle, square), color and size of the vertices;
+@item
+Possibility to choose background color;
+@item
+Settings will be saved between program restarts;
+@end enumerate
+
+
+@node Bonus Record
+@chapter Bonus Record
+
+@cindex record, bonus
+Our program allows the following options:
+@cindex index entry, another
+
+@enumerate
+@item
+Save images in bmp and jpeg format;
+@item
+Save/write as gif animation;
+@end enumerate
+
+
+@bye
